@@ -1,0 +1,68 @@
+
+<resources>
+
+    <string name="question_1">1. Identify this symbol:</string>
+    <string name="question_two">2. Check everything that is true</string>
+    <string name="question_3">3. What is this symbol?</string>
+    <string name="question_4">4. Which one is correct?</string>
+    <string name="question_5">5. Choose the correct answer</string>
+    <string name="answer">Answer</string>
+    <string name="score">Score:</string>
+    <string name="try_again">Try again?</string>
+    <string name="you_scored">You scored </string>
+    <string name="out_of_5">/5</string>
+    <string name="or_continue">or Continue?</string>
+
+    <!-- quiz the first -->
+    <string name="app_name">Hiragana Quiz App</string>
+    <string name="final_score_int">0</string>
+    <string name="hiragana_quiz">Hiragana Quiz</string>
+    <string name="hiragana_image_desc">image of the Hiragana symbol \'hi\'</string>
+    <string name="ah_image_description">image of the \'ah\' hiragana symbol</string>
+    <string name="eh">eh</string>
+    <string name="oo">oo</string>
+    <string name="ah">ah</string>
+    <string name="ei">ei</string>
+    <string name="ei_image_desc">image of the hiragana \'ei\'</string>
+    <string name="ei_answer_1">This symbol is called ei</string>
+    <string name="ei_answer_2">This is the 2nd symbol in Hiragana</string>
+    <string name="ei_answer_3">This symbol is translated as the letter i</string>
+    <string name="ei_answer_4">This symbol is called eh</string>
+    <string name="oo_image_desc">image of Hiragana \'oo\'</string>
+    <string name="eh_image_desc">Hiragana \'eh\' image</string>
+    <string name="eh_answer_one">This is e, which sounds like \'eh\'</string>
+    <string name="eh_answer_two">This is e, which sounds like \'oo\'</string>
+    <string name="eh_answer_3">This is a, which sounds like \'ah\'</string>
+    <string name="eh_answer_4">This is a, which sounds like \'ei\'</string>
+    <string name="oh_image_desc">Hiragama \'oh\' image</string>
+    <string name="oh_answer_1">This is o, which sounds like \'eh\'</string>
+    <string name="oh_answer_2">This is e, which sounds like \'oo\'</string>
+    <string name="oh_answer_3">This is o, which sounds like \'ah\'</string>
+    <string name="oh_answer_4">This is o, which sounds like \'oh\'</string>
+
+    <!-- quiz the second -->
+    <string name="part_2">part 2</string>
+    <string name="ka_image_description">image of the Hiragana \'ka\'</string>
+    <string name="ka">ka</string>
+    <string name="ke">ke</string>
+    <string name="ko">ko</string>
+    <string name="ki_image_desc">image of the hiragana \'ki\'</string>
+    <string name="ki_answer_1">This symbol is called ki</string>
+    <string name="ki_answer_2">This is the 7th symbol in Hiragana</string>
+    <string name="ki_answer_3">This symbol is pronounced like the English word key</string>
+    <string name="ki_answer_4">This symbol is called ke</string>
+    <string name="ku_image_desc">image of Hiragana \'ku\'</string>
+    <string name="ke_image_desc">Hiragana \'ke\' image</string>
+    <string name="ke_answer_one">This is ke, which sounds like \'keh\'</string>
+    <string name="ke_answer_two">This is e, which sounds like \'koo\'</string>
+    <string name="ke_answer_3">This is ka, which sounds like \'kah\'</string>
+    <string name="ke_answer_4">This is a, which sounds like \'ah\'</string>
+    <string name="ko_image_desc">Hiragama \'ko\' image</string>
+    <string name="ko_answer_1">This is ko, which sounds like \'eh\'</string>
+    <string name="ko_answer_2">This is e, which sounds like \'oo\'</string>
+    <string name="ko_answer_3">This is o, which sounds like \'ah\'</string>
+    <string name="ko_answer_4">This is ko, which sounds like \'koh\'</string>
+    <string name="out_of_10"> /10 overall.</string>
+    <string name="and_">and</string>
+
+</resources>

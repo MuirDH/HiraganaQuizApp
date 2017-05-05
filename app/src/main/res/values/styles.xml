@@ -1,0 +1,103 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="MainTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/hiragana_quiz</item>
+        <item name="android:textColor">@color/textColorPrimary</item>
+        <item name="android:textSize">@dimen/title_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TitleImageView">
+        <item name="android:layout_width">@dimen/image_layout_width</item>
+        <item name="android:layout_height">@dimen/image_layout_height</item>
+        <item name="android:layout_marginBottom">@dimen/layout_marginBottom</item>
+        <item name="android:layout_marginEnd">@dimen/layout_marginEnd</item>
+        <item name="android:layout_marginLeft">@dimen/layout_marginLeft</item>
+        <item name="android:layout_marginRight">@dimen/image_layout_marginRight</item>
+        <item name="android:layout_marginStart">@dimen/layout_marginStart</item>
+        <item name="android:layout_marginTop">@dimen/layout_marginTop</item>
+    </style>
+
+    <style name="FabButton">
+        <item name="android:layout_margin">@dimen/fab_margin</item>
+        <item name="android:layout_width">@dimen/fab_layout_width_height</item>
+        <item name="android:layout_height">@dimen/fab_layout_width_height</item>
+        <item name="android:layout_gravity">bottom|end</item>
+    </style>
+
+    <style name="LinearLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:weightSum">1</item>
+    </style>
+
+    <style name="QuestionTextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/questionText_margin_lrt</item>
+        <item name="android:layout_marginRight">@dimen/questionText_margin_lrt</item>
+        <item name="android:layout_marginTop">@dimen/questionText_margin_lrt</item>
+        <item name="android:textSize">@dimen/question_textSize</item>
+        <item name="android:textColor">@color/textColorPrimary</item>
+    </style>
+
+    <style name="QuestionImageView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/question_imageHeight</item>
+    </style>
+
+    <style name="RadioGroup">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="CheckBoxes">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/check_layout_margin</item>
+        <item name="android:textColor">@color/textColorSecondary</item>
+        <item name="android:textSize">@dimen/check_textSize</item>
+    </style>
+
+    <style name="EditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/q3_layout_margin</item>
+        <item name="android:ems">5</item>
+        <item name="android:hint">@string/answer</item>
+        <item name="android:inputType">text</item>
+        <item name="android:textColor">@color/textColorSecondary</item>
+    </style>
+
+    <style name="ResultTextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/result3_textSize</item>
+        <item name="android:textColor">@color/textColorSecondary</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentStart">true</item>
+    </style>
+
+</resources>
+

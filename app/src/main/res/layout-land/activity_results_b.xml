@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tryAgainTextView"
+            style="@style/ResultTextView"
+            android:layout_alignParentTop="true"
+            android:text="@string/try_again" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/tryAgain"
+            style="@style/FabButton"
+            android:layout_below="@+id/tryAgainTextView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/fab_margin_top"
+            android:onClick="goBack"
+            app:srcCompat="@drawable/ic_arrow_back_black_24dp" />
+
+        <!-- When part 3 of the quiz is created, this will take the user to part 3.
+             For now, it just goes back to the beginning of the quiz-->
+        <TextView
+            android:id="@+id/continueTextView"
+            style="@style/ResultTextView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/tryAgain"
+            android:text="@string/or_continue" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/continueQuiz"
+            style="@style/FabButton"
+            android:layout_below="@+id/continueTextView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/fab_marginBottom"
+            android:onClick="continueQuiz"
+            app:srcCompat="@drawable/ic_arrow_forward_black_24dp" />
+
+    </RelativeLayout>
+
+</ScrollView>

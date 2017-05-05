@@ -1,0 +1,61 @@
+<resources>
+    <!--FAB-->
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="fab_layout_marginBottom">31dp</dimen>
+    <item name="fab_horizontal_bias" type="dimen" format="float">0.501</item>
+    <item name="fab_vertical_bias" type="dimen" format="float">0.86</item>
+    <dimen name="fab_title_margin">8dp</dimen>
+    <dimen name="fab_layout_width_height">55dp</dimen>
+
+    <!--Title/Start screen-->
+    <dimen name="title_text_size">30sp</dimen>
+    <dimen name="image_layout_width">192dp</dimen>
+    <dimen name="image_layout_height">190dp</dimen>
+    <dimen name="image_layout_marginRight">84dp</dimen>
+    <dimen name="layout_marginEnd">84dp</dimen>
+    <dimen name="layout_marginLeft">8dp</dimen>
+    <dimen name="layout_marginStart">8dp</dimen>
+    <dimen name="layout_marginTop">64dp</dimen>
+    <dimen name="layout_marginBottom">8dp</dimen>
+    <item name="title_horizontal_bias" type="dimen" format="float">0.502</item>
+    <item name="title_vertical_bias" type="dimen" format="float">0.263</item>
+    <item name="title_image_horizontal_bias" type="dimen" format="float">1.0</item>
+    <item name="title_image_vertical_bias" type="dimen" format="float">0.406</item>
+    <item name="land_title_vertical_bias" type="dimen" format="float">0.007</item>
+    <item name="land_main_image_horizontal_bias" type="dimen" format="float">0.623</item>
+    <item name="land_main_image_vertical_bias" type="dimen" format="float">0.0</item>
+    <item name="land_main_fab_vertical_bias" type="dimen" format="float">1.0</item>
+    <item name="land_main_fab_horizontal_bias" type="dimen" format="float">0.888</item>
+
+    <!--Question 3-->
+    <dimen name="q3_layout_margin">20dp</dimen>
+
+    <dimen name="questionText_margin_lrt">20dp</dimen>
+    <dimen name="question_textSize">20sp</dimen>
+    <dimen name="question_imageHeight">207dp</dimen>
+    <dimen name="check_layout_margin">4dp</dimen>
+    <dimen name="check_textSize">18sp</dimen>
+
+    <!--Result screen-->
+    <dimen name="result_layout_marginLeft">17dp</dimen>
+    <dimen name="result_layout_marginStart">17dp</dimen>
+    <dimen name="result_layout_marginTop">56dp</dimen>
+    <dimen name="result2_layout_marginTop">33dp</dimen>
+    <dimen name="result3_layout_marginBottom">27dp</dimen>
+    <dimen name="result3_textSize">50sp</dimen>
+    <dimen name="result_layout_margin_top">135dp</dimen>
+    <dimen name="result_layout_margin_bottom">135dp</dimen>
+    <dimen name="FAB_layout_margin_right">278dp</dimen>
+    <dimen name="fab_layout_margin_end">278dp</dimen>
+    <dimen name="fab_layout_marginLeft">8dp</dimen>
+    <dimen name="fab_layout_marginStart">8dp</dimen>
+    <dimen name="image_marginTop">4dp</dimen>
+    <dimen name="fab_marginTop">8dp</dimen>
+    <dimen name="fab_marginRight">8dp</dimen>
+    <dimen name="fab_marginLeft">8dp</dimen>
+    <dimen name="fab_marginBottom">8dp</dimen>
+    <dimen name="result3_layout_margin_top">74dp</dimen>
+    <dimen name="fab_margin_top">19dp</dimen>
+    <dimen name="result_fab_margin_bottom">96dp</dimen>
+
+</resources>

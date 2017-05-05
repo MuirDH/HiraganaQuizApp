@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:targetApi="lollipop">
+
+    <LinearLayout
+        style="@style/LinearLayout"
+        android:backgroundTint="@color/colorPrimaryLight">
+
+        <TextView
+            android:id="@+id/firstQuestion"
+            style="@style/QuestionTextView"
+            android:text="@string/question_1" />
+
+        <ImageView
+            android:id="@+id/ah"
+            style="@style/QuestionImageView"
+            android:contentDescription="@string/ah_image_description"
+            app:srcCompat="@drawable/hiragana_a" />
+
+        <RadioGroup style="@style/RadioGroup">
+
+            <RadioButton
+                android:id="@+id/radioButton"
+                style="@style/CheckBoxes"
+                android:onClick="onRadioButtonClicked"
+                android:text="@string/eh" />
+
+            <RadioButton
+                android:id="@+id/radioButton2"
+                style="@style/CheckBoxes"
+                android:onClick="onRadioButtonClicked"
+                android:text="@string/oo" />
+
+            <RadioButton
+                android:id="@+id/radioButton3"
+                style="@style/CheckBoxes"
+                android:onClick="onRadioButtonClicked"
+                android:text="@string/ah" />
+
+            <RadioButton
+                android:id="@+id/radioButton4"
+                style="@style/CheckBoxes"
+                android:onClick="onRadioButtonClicked"
+                android:text="@string/ei" />
+        </RadioGroup>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/proceedQ2"
+            style="@style/FabButton"
+            android:onClick="onClick"
+            app:srcCompat="@drawable/ic_arrow_forward_black_24dp" />
+
+    </LinearLayout>
+
+</ScrollView>

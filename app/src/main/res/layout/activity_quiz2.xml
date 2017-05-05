@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:targetApi="lollipop">
+
+    <LinearLayout
+        style="@style/LinearLayout"
+        android:backgroundTint="@color/colorPrimaryLight">
+
+        <TextView
+            android:id="@+id/secondQuestion"
+            style="@style/QuestionTextView"
+            android:text="@string/question_two" />
+
+        <ImageView
+            android:id="@+id/ei"
+            style="@style/QuestionImageView"
+            android:contentDescription="@string/ei_image_desc"
+            app:srcCompat="@drawable/hiragana_i" />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            style="@style/CheckBoxes"
+            android:text="@string/ei_answer_1" />
+
+        <CheckBox
+            android:id="@+id/checkBox2"
+            style="@style/CheckBoxes"
+            android:text="@string/ei_answer_2" />
+
+        <CheckBox
+            android:id="@+id/checkBox3"
+            style="@style/CheckBoxes"
+            android:text="@string/ei_answer_3" />
+
+        <CheckBox
+            android:id="@+id/checkBox4"
+            style="@style/CheckBoxes"
+            android:text="@string/ei_answer_4" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/proceedQ3"
+            style="@style/FabButton"
+            android:onClick="onClick"
+            app:srcCompat="@drawable/ic_arrow_forward_black_24dp" />
+
+    </LinearLayout>
+
+</ScrollView>

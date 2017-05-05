@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/colorPrimaryLight"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:targetApi="lollipop">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        style="@style/MainTextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="@dimen/title_horizontal_bias"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="@dimen/title_vertical_bias" />
+
+    <ImageView
+        android:id="@+id/titleImageView"
+        style="@style/TitleImageView"
+        android:contentDescription="@string/hiragana_image_desc"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="@dimen/title_image_horizontal_bias"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="@dimen/title_image_vertical_bias"
+        app:srcCompat="@drawable/hiragana" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/titleFAB"
+        style="@style/FabButton"
+        android:layout_margin="@dimen/fab_title_margin"
+        android:onClick="proceedToQuiz"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="@dimen/fab_horizontal_bias"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="@dimen/fab_vertical_bias"
+        app:srcCompat="@drawable/ic_arrow_forward_black_24dp" />
+
+</android.support.constraint.ConstraintLayout>

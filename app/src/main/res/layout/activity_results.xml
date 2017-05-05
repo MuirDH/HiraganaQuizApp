@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tryAgainTextView"
+        style="@style/ResultTextView"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/result3_layout_margin_top"
+        android:text="@string/try_again" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/tryAgain"
+        style="@style/FabButton"
+        android:layout_below="@+id/tryAgainTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/fab_margin_top"
+        android:onClick="goBack"
+        app:srcCompat="@drawable/ic_arrow_back_black_24dp" />
+
+    <TextView
+        android:id="@+id/continueTextView"
+        style="@style/ResultTextView"
+        android:layout_centerVertical="true"
+        android:text="@string/or_continue" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/continueQuiz"
+        style="@style/FabButton"
+        android:layout_below="@+id/continueTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/result_fab_margin_bottom"
+        android:onClick="continueQuiz"
+        app:srcCompat="@drawable/ic_arrow_forward_black_24dp" />
+
+</RelativeLayout>
